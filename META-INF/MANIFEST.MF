@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Require-Bundle: xcpui.xcpui;bundle-version="2.3.0", xcp.xcpcore;bundle
+ -version="2.3.0", xcpcomm.xcpcommons;bundle-version="2.3.0"
+Bundle-ClassPath: .
+Bundle-Version: 1.0.0.201802051646
+EMC-XCP-ExecutionEnvironment: com.emc.executionenvironment.xcp:2.3.150
+ .1418
+Bundle-Name: test1
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: tes.test1
+NAMESPACE: tes
+
