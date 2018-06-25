@@ -9,4 +9,5 @@
   <indexes urn="urn:tes:com.emc.xcp.artifact.viewermapping:Artifacts/Viewer Formats/viewerformatmapping.viewerformat" categoryId="com.emc.xcp.artifact.viewermapping" path="Artifacts/Viewer Formats/viewerformatmapping.viewerformat" label="Viewers and Formats" name="viewerformatmapping"/>
   <indexes urn="urn:tes:com.emc.xcp.artifact.rtappconfig:Artifacts/Runtime App Configurations/runtimeappconfig.rtappconfig" categoryId="com.emc.xcp.artifact.rtappconfig" path="Artifacts/Runtime App Configurations/runtimeappconfig.rtappconfig" label="runtimeappconfig" name="runtimeappconfig"/>
   <indexes urn="urn:tes:com.emc.xcp.artifact.page:Artifacts/Pages/admin.page" categoryId="com.emc.xcp.artifact.page" path="Artifacts/Pages/admin.page" label="Admin" name="admin"/>
+  <indexes urn="urn:tes:com.emc.ide.artifact.process:Artifacts/Processes/create_template.process" categoryId="com.emc.ide.artifact.process" path="Artifacts/Processes/create_template.process" label="create template" name="create_template"/>
 </Artifact:ArtifactIndexes>
