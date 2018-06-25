@@ -82,14 +82,18 @@
           <propertyMap key="cls" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.10"/>
           <propertyMap key="xcpId" value="//@rootContainer/@children.0/@children.0/@children.0/@properties.11"/>
           <children xsi:type="uitemplate:Container" componentDefinitionId="xcp_nav_button" parent="//@rootContainer/@children.0/@children.0/@children.0" widgetEntry="//@widgetMap[key='nav_button']">
-            <properties name="text" value="Menu Item 1" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
+            <properties name="text" value="Admin" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.0"/>
             <properties name="iconCls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.1"/>
             <properties name="hidden" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.2"/>
             <properties name="disabled" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.3"/>
             <properties name="cls" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.4"/>
             <properties name="tooltip" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.5"/>
-            <properties name="navType" value="none" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
-            <properties xsi:type="uitemplate:DataboundProperty" name="navPageId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.7"/>
+            <properties name="navType" value="page_static" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.6"/>
+            <properties xsi:type="uitemplate:DataboundProperty" name="navPageId" value="tes_admin" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.7">
+              <data selectionName="admin" selectionLabel="Admin">
+                <dataRef href="urn:tes:com.emc.xcp.artifact.page:Artifacts/Pages/admin.page#/"/>
+              </data>
+            </properties>
             <properties name="navPageIdExpr" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.8"/>
             <properties name="navUrlExpr" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.9"/>
             <properties name="navObjectId" value="" entry="//@rootContainer/@children.0/@children.0/@children.0/@children.0/@propertyMap.10"/>
